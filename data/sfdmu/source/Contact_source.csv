@@ -1,0 +1,71 @@
+Id,RecordTypeId,Name,IsPersonAccount,AccountId,LastName,FirstName,Salutation,OtherStreet,OtherCity,OtherState,OtherPostalCode,OtherCountry,OtherLatitude,OtherLongitude,OtherGeocodeAccuracy,MailingStreet,MailingCity,MailingState,MailingPostalCode,MailingCountry,MailingLatitude,MailingLongitude,MailingGeocodeAccuracy,Phone,Fax,MobilePhone,HomePhone,OtherPhone,AssistantPhone,ReportsToId,Email,Title,Department,AssistantName,LeadSource,Birthdate,Description,EmailBouncedReason,EmailBouncedDate,Jigsaw,IndividualId,HealthCloudGA__ConvertedReferrals__c,HealthCloudGA__CountryOfBirth__c,HealthCloudGA__DeceasedDate__c,HealthCloudGA__Gender__c,HealthCloudGA__IndividualType__c,HealthCloudGA__MedicalRecordNumber__c,HealthCloudGA__PreferredName__c,HealthCloudGA__PrimaryLanguage__c,HealthCloudGA__SecondaryLanguage__c,HealthCloudGA__SourceSystemId__c,HealthCloudGA__SourceSystem__c,HealthCloudGA__TotalReferrals__c,Account.Name,ReportsTo.Name,Individual.Name,RecordType.$$DeveloperName$NamespacePrefix$SobjectType
+0035e00000BCVATAA5,,Jack Rogers,false,0015e00000EXtgbAAD,Rogers,Jack,Mr.,,,,,,,,,525 S. Lexington Ave,Burlington,NC,27215,USA,,,,(336) 222-7000,(336) 222-8000,,,,,,jrogers@burlington.com,"VP, Facilities",,,Web,,,,,,,,,,,,,,,,,,,Burlington Textiles Corp of America,,,
+0035e00000BCVAUAA5,,Pat Stumuller,false,0015e00000EXtgcAAD,Stumuller,Pat,Ms.,2 Place Jussieu,Paris,,75251,France,,,,2 Place Jussieu,Paris,,75251,France,,,,(014) 427-4427,(014) 427-4428,(014) 454-6364,,,(014) 427-4465,,pat@pyramid.net,"SVP, Administration and Finance",Finance,Jean Marie,,,,,,,,,,,,,,,,,,,,Pyramid Construction Inc.,,,
+0035e00000BCVAVAA5,,Andy Young,false,0015e00000EXtgdAAD,Young,Andy,Mr,1301 Hoch Drive,Lawrence,KS,66045,USA,,,,1301 Hoch Drive,Lawrence,KS,66045,USA,,,,(785) 241-6200,,(785) 265-5350,,,,,a_young@dickenson.com,"SVP, Operations",Internal Operations,,Purchased List,,,,,,,,,,,,,,,,,,,Dickenson plc,,,
+0035e00000BCVAWAA5,,Tim Barr,false,0015e00000EXtgeAAD,Barr,Tim,Mr.,,,,,,,,,"2335 N. Michigan Avenue, Suite 1500
+Chicago, IL 60601, USA",,,,,,,,(312) 596-1000,(312) 596-1500,(312) 596-1230,,,,,barr_tim@grandhotels.com,"SVP, Administration and Finance",Finance,,External Referral,1955-02-25,,,,,,,,,,,,,,,,,,Grand Hotels & Resorts Ltd,,,
+0035e00000BCVAXAA5,,John Bond,false,0015e00000EXtgeAAD,Bond,John,Mr.,,,,,,,,,"2334 N. Michigan Avenue, Suite 1500
+Chicago, IL 60601, USA",,,,,,,,(312) 596-1000,(312) 596-1500,(312) 596-1563,,,,,bond_john@grandhotels.com,"VP, Facilities",Facilities,,External Referral,1957-05-08,,,,,,,,,,,,,,,,,,Grand Hotels & Resorts Ltd,,,
+0035e00000BCVAYAA5,,Stella Pavlova,false,0015e00000EXtgfAAD,Pavlova,Stella,Ms.,,,,,,,,,"1303 Avenue of the Americas 
+New York, NY 10019
+USA",,,,,,,,(212) 842-5500,(212) 842-5501,(212) 842-5501,,(212) 842-5543,(212) 842-5589,,spavlova@uog.com,"SVP, Production",Production,Audrey Haynes,Public Relations,1944-10-22,,,,,,,,,,,,,,,,,,United Oil & Gas Corp.,,,
+0035e00000BCVAZAA5,,Lauren Boyle,false,0015e00000EXtgfAAD,Boyle,Lauren,Ms.,,,,,,,,,"1304 Avenue of the Americas 
+New York, NY 10019
+USA",,,,,,,,(212) 842-5500,(212) 842-5501,(212) 842-5611,,,,,lboyle@uog.com,"SVP, Technology",Technology,,Public Relations,1961-12-05,,,,,,,,,,,,,,,,,,United Oil & Gas Corp.,,,
+0035e00000BCVAaAAP,,Babara Levy,false,0015e00000EXtggAAD,Levy,Babara,Ms.,,,,,,,,,"620 SW 5th Avenue Suite 400
+Portland, Oregon 97204
+United States",,,,,,,,(503) 421-7800,(503) 421-7801,(503) 421-5451,,,(503) 421-6782,,b.levy@expressl&t.net,"SVP, Operations",Operations,Ron Sage,Word of mouth,1938-06-08,,,,,,,,,,,,,,,,,,Express Logistics and Transport,,,
+0035e00000BCVAbAAP,,Josh Davis,false,0015e00000EXtggAAD,Davis,Josh,Mr.,,,,,,,,,"621 SW 5th Avenue Suite 400
+Portland, Oregon 97204
+United States",,,,,,,,(503) 421-7800,(503) 421-7801,(503) 421-4387,,,,,j.davis@expressl&t.net,"Director, Warehouse Mgmt",Warehouse Mgmt,,Word of mouth,1949-10-02,,,,,,,,,,,,,,,,,,Express Logistics and Transport,,,
+0035e00000BCVAcAAP,,Jane Grey,false,0015e00000EXtghAAD,Grey,Jane,Ms.,,,,,,,,,"888 N Euclid 
+Hallis Center, Room 501
+Tucson, AZ 85721
+United States",,,,,,,,(520) 773-9050,(520) 773-9060,(520) 773-4539,,,,,jane_gray@uoa.edu,Dean of Administration,Administration,,Word of mouth,1945-08-19,,,,,,,,,,,,,,,,,,University of Arizona,,,
+0035e00000BCVAdAAP,,Arthur Song,false,0015e00000EXtgfAAD,Song,Arthur,Mr.,,,,,,,,,"1301 Avenue of the Americas 
+New York, NY 10019
+USA",,,,,,,,(212) 842-5500,(212) 842-5501,(212) 842-4535,,,(212) 842-5464,,asong@uog.com,CEO,Executive Team,Pat Feinstein,Public Relations,1953-02-17,,,,,,,,,,,,,,,,,,United Oil & Gas Corp.,,,
+0035e00000BCVAeAAP,,Ashley James,false,0015e00000EXtgiAAD,James,Ashley,Ms.,,,,,,,,,"Kings Park, 17th Avenue, Team Valley Trading Estate,
+Gateshead, Tyne and Wear NE26 3HS
+United Kingdom",,,,,,,,+44 191 4956203,+44 191 4956620,+44 191 3456234,,,,,ajames@uog.com,"VP, Finance",Finance,,Public Relations,1947-10-28,,,,,,,,,,,,,,,,,,"United Oil & Gas, UK",,,
+0035e00000BCVAgAAP,,Liz D'Cruz,false,0015e00000EXtgjAAD,D'Cruz,Liz,Ms.,,,,,,,,,"10 Tagore Lane
+Singapore, Singapore 787472
+Singapore",,,,,,,,(650) 450-8810,(650) 450-8820,(650) 345-6637,,,,,ldcruz@uog.com,"VP, Production",Production,,Public Relations,1963-04-06,,,,,,,,,,,,,,,,,,"United Oil & Gas, Singapore",,,
+0035e00000BCVAhAAP,,Edna Frank,false,0015e00000EXtgkAAD,Frank,Edna,Ms.,,,,,,,,,"345 Shoreline Park
+Mountain View, CA 94043
+USA",,,,,,,,(650) 867-3450,(650) 867-9895,(650) 867-7686,,,,,efrank@genepoint.com,"VP, Technology",Technology,,Partner,1943-09-11,,,,,,,,,,,,,,,,,,GenePoint,,,
+0035e00000BCVAiAAP,,Avi Green,false,0015e00000EXtgfAAD,Green,Avi,Mr.,,,,,,,,,"1302 Avenue of the Americas 
+New York, NY 10019
+USA",,,,,,,,(212) 842-5500,(212) 842-5501,(212) 842-2383,,,(212) 842-5428,,agreen@uog.com,CFO,Finance,Chris Nobel,Public Relations,1935-01-29,,,,,,,,,,,,,,,,,,United Oil & Gas Corp.,,,
+0035e00000BCVAjAAP,,Siddartha Nedaerk,false,0015e00000EXtglAAD,Nedaerk,Siddartha,Ms.,,,,,,,,,The Landmark @ One Market,San Francisco,CA,94087,US,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,sForce,,,
+0035e00000BCVAkAAP,,Jake Llorrac,false,0015e00000EXtglAAD,Llorrac,Jake,Mr.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,sForce,,,
+0035e00000BCVAfAAP,,Tom Ripley,false,0015e00000EXtgjAAD,Ripley,Tom,Mr.,,,,,,,,,"9 Tagore Lane
+Singapore, Singapore 787472
+Singapore",,,,,,,,(650) 450-8810,(650) 450-8820,(650) 345-7636,,,,,tripley@uog.com,Regional General Manager,Executive Team,,Public Relations,1951-12-25,,,,,,,,,,,,,,,,,,"United Oil & Gas, Singapore",,,
+0035e00000BCVARAA5,,Rose Gonzalez,false,0015e00000EXtgaAAD,Gonzalez,Rose,Ms.,,,,,,,,,"313 Constitution Place
+Austin, TX 78767
+USA",,,,,,,,(512) 757-6000,(512) 757-9000,(512) 757-9340,,,,,rose@edge.com,"SVP, Procurement",Procurement,,Trade Show,1969-07-01,,,,,,,,,,,,,,,,,,Edge Communications,,,
+0035e00000BCVASAA5,,Sean Forbes,false,0015e00000EXtgaAAD,Forbes,Sean,Mr.,,,,,,,,,"312 Constitution Place
+Austin, TX 78767
+USA",,,,,,,,(512) 757-6000,(512) 757-9000,(512) 757-4561,,,,,sean@edge.com,CFO,Finance,,Trade Show,1948-03-29,,,,,,,,,,,,,,,,,,Edge Communications,,,
+0035e00000CZzMWAA1,0125e000001kk7ZAAQ,Ben Green,false,0015e00000EsKmjAAF,Green,Ben,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,United States,,,Individual,,,English,English,,Health1-00D1I000003oKaz,,Ben Green,,,IndustriesIndividual;HealthCloudGA;Contact
+0035e00000CZzMXAA1,0125e000001kk7ZAAQ,"John Smith, MD",false,0015e00000EsKmkAAF,"Smith, MD",John,Dr.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,United States,,,Individual,,,English,English,,Health1-00D1I000003oKaz,,One Medical Group Inc,,,IndustriesIndividual;HealthCloudGA;Contact
+0035e00000CZzMYAA1,0125e000001kk7ZAAQ,Michael White,false,0015e00000EsKmlAAF,White,Michael,Dr.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,United States,,,Individual,,,English,English,,Health1-00D1I000003oKaz,,Ohana Health System,,,IndustriesIndividual;HealthCloudGA;Contact
+0035e00000CZzMZAA1,0125e000001kk7ZAAQ,Charles Manning,false,0015e00000EsKmmAAF,Manning,Charles,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,United States,,,Individual,,,English,English,,Health1-00D1I000003oKaz,,Charles Manning,,,IndustriesIndividual;HealthCloudGA;Contact
+0035e00000CZzMaAAL,0125e000001kk7ZAAQ,George Michael,false,0015e00000EsKmnAAF,Michael,George,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,United States,,,Individual,,,English,English,,Health1-00D1I000003oKaz,,George Michael,,,IndustriesIndividual;HealthCloudGA;Contact
+0035e00000CZzMbAAL,0125e000001kk7YAAQ,Marla Kissinger,false,0015e00000EsKmlAAF,Kissinger,Marla,Dr.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,United States,,,Individual,,,English,English,,Health1-00D1I000003oKaz,,Ohana Health System,,,IndustriesBusiness;HealthCloudGA;Contact
+0035e00000CZzMcAAL,0125e000001kk7ZAAQ,Cara Owens,false,0015e00000EsKmoAAF,Owens,Cara,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,United States,,,Individual,,,English,English,,Health1-00D1I000003oKaz,,Cara Owens,,,IndustriesIndividual;HealthCloudGA;Contact
+0035e00000CZzMdAAL,0125e000001kk7ZAAQ,Charles Manning,false,0015e00000EsKmmAAF,Manning,Charles,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,United States,,,Individual,,,English,English,,Health1-00D1I000003oKaz,,Charles Manning,,,IndustriesIndividual;HealthCloudGA;Contact
+0035e00000CZzMeAAL,0125e000001kk7YAAQ,Carol Peterson,false,0015e00000EsKmkAAF,Peterson,Carol,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,United States,,,Individual,,,English,English,,Health1-00D1I000003oKaz,,One Medical Group Inc,,,IndustriesBusiness;HealthCloudGA;Contact
+0035e00000CZzMfAAL,0125e000001kk7YAAQ,"Mina Patel, MD",false,0015e00000EsKmkAAF,"Patel, MD",Mina,Dr.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,United States,,,Individual,,,English,English,,Health1-00D1I000003oKaz,,One Medical Group Inc,,,IndustriesBusiness;HealthCloudGA;Contact
+0035e00000CZzMlAAL,0125e000001kk7ZAAQ,Amy Huffman,false,0015e00000EsKmxAAF,Huffman,Amy,Dr.,718 Glenview Ave,Highland Park,IL,60035-2432,USA,,,,718 Glenview Ave,Highland Park,IL,60035-2432,USA,,,,(312) 555-1212,(408) 555-1277,(408) 555-1216,,,,,amyhuffman@gmail.com,,,,,,,,,,,,United States,,,Individual,,,English,English,,Health1-00D1I000003oKaz,,Makana Clinic*,,,IndustriesIndividual;HealthCloudGA;Contact
+0035e00000CZzMgAAL,0125e000001kk7YAAQ,"Tony Secemsky, MD",false,0015e00000EsKmlAAF,"Secemsky, MD",Tony,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,United States,,,Individual,,,English,English,,Health1-00D1I000003oKaz,,Ohana Health System,,,IndustriesBusiness;HealthCloudGA;Contact
+0035e00000CZzMhAAL,0125e000001kk7YAAQ,Michael Grossman,false,0015e00000EsKmlAAF,Grossman,Michael,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,United States,,,Individual,,,English,English,,Health1-00D1I000003oKaz,,Ohana Health System,,,IndustriesBusiness;HealthCloudGA;Contact
+0035e00000CZzMiAAL,0125e000001kk7ZAAQ,Bob Smith,false,0015e00000EsKmqAAF,Smith,Bob,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,United States,,,Individual,,,English,English,,Health1-00D1I000003oKaz,,Bob Smith,,,IndustriesIndividual;HealthCloudGA;Contact
+0035e00000CZzMjAAL,0125e000001kk7ZAAQ,Florence Canna,false,0015e00000EsKmrAAF,Canna,Florence,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,United States,,,Individual,,,English,English,,Health1-00D1I000003oKaz,,Florence Canna,,,IndustriesIndividual;HealthCloudGA;Contact
+0035e00000CZzMkAAL,0125e000001kk7ZAAQ,Sarah Loehr,false,0015e00000EsKmsAAF,Loehr,Sarah,,,,,,,,,,1 Jones Ave,New York,NY,10010,United States,,,,5555551212,,,,,,,info@salesforce.com,,,,,,,,,,,,United States,,,Individual,,,English,English,,Health1-00D5e000003TG6b,,Sarah Loehr,,,IndustriesIndividual;HealthCloudGA;Contact
+0035e00000CZzM5AAL,0125e000001kk7ZAAQ,Shawna Green,false,0015e00000EsKmeAAF,Green,Shawna,,,,,,,,,,123 Mission St,San Francisco,,,USA,,,,,,,,,,,,,,,,1948-08-04,,,,,,,United States,,,Individual,2361124,,English,English,,Health1-00D36000001E03d,,Shawna Green,,,IndustriesIndividual;HealthCloudGA;Contact
+0035e00000CZzM6AAL,0125e000001kk7ZAAQ,David Morrison,false,0015e00000EsKmfAAF,Morrison,David,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1959-04-21,,,,,,,United States,,,Individual,2365592,,English,English,,Health1-00D36000001E03d,,David Morrison,,,IndustriesIndividual;HealthCloudGA;Contact
+0035e00000CZzM7AAL,0125e000001kk7ZAAQ,Jane Hamilton,false,0015e00000EsKmgAAF,Hamilton,Jane,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1956-09-17,,,,,,,United States,,,Individual,987-654321-7,,English,English,,Health1-00D36000001E03d,,Jane Hamilton,,,IndustriesIndividual;HealthCloudGA;Contact
+0035e00000CZzM8AAL,0125e000001kk7ZAAQ,Janet Campbell,false,0015e00000EsKmhAAF,Campbell,Janet,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1980-01-11,,,,,,,United States,,,Individual,987-654321-11,,English,English,,Health1-00D36000001E03d,,Janet Campbell,,,IndustriesIndividual;HealthCloudGA;Contact
+0035e00000CZzM9AAL,0125e000001kk7ZAAQ,Charles Green,false,0015e00000EsKmiAAF,Green,Charles,,,,,,,,,,1 Market St,San Francisco,,94105,USA,,,,,,,,,,,trollings@salesforce.com,,,,,1963-10-25,,,,,,,United States,,,Individual,2354422,,English,English,,Health1-00D36000001E03d,,Charles Green,,,IndustriesIndividual;HealthCloudGA;Contact

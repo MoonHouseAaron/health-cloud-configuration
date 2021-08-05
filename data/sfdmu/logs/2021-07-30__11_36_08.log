@@ -1,0 +1,154 @@
+
+[11:36:08.122] {"Running version":"4.4.3"}
+
+[11:36:08.183] [[Core Manifest]] Loading addon manifest ...
+[11:36:08.184] [[User Manifest]] Loading addon manifest ...
+[11:36:08.404] Connecting to rts-dosespot using SFDX CLI ...
+[11:36:14.947] Successfully connected to rts-dosespot.
+[11:36:16.469] {"SOURCE":"rts-dosespot.","TARGET":"csvfile.","Package script":"/Users/aaron/Development/Projects/Salesforce/Templates/Health-Cloud-Sfdx-Template/data-new/sfdmu/export.json."}
+
+[11:36:16.470] GETTING AND ANALYSING OBJECTS METADATA ...
+[11:36:16.471] Processing the sObject Contact ...
+[11:36:16.471] Getting metadata for Contact (SOURCE)
+[11:36:17.719] Processing the sObject Account ...
+[11:36:17.719] Getting metadata for Account (SOURCE)
+[11:36:19.313] Processing the sObject AccountContactRelation ...
+[11:36:19.313] Getting metadata for AccountContactRelation (SOURCE)
+[11:36:19.816] Processing the sObject Case ...
+[11:36:19.817] Getting metadata for Case (SOURCE)
+[11:36:20.510] Processing the sObject RecordType ...
+[11:36:20.511] Getting metadata for RecordType (SOURCE)
+[11:36:21.304] Processing the sObject RecordType ...
+[11:36:21.305] Processing the sObject Case ...
+[11:36:21.306] Processing the sObject AccountContactRelation ...
+[11:36:21.307] Processing the sObject Account ...
+[11:36:21.311] Getting metadata for Individual (SOURCE)
+[11:36:21.941] The parent sobject Individual for the lookup field Account.PersonIndividualId has been included into the process. The externalId is set to 'Name'.
+[11:36:21.943] Getting metadata for OperatingHours (SOURCE)
+[11:36:22.537] The parent sobject OperatingHours for the lookup field Account.OperatingHoursId has been included into the process. The externalId is set to 'Name'.
+[11:36:22.539] Processing the sObject Contact ...
+
+[11:36:22.543] PREPARING DATA MIGRATION JOB ...
+[11:36:22.543] Building migration strategy ...
+[11:36:22.546] {"Order of objects to retrieve data":"RecordType; AccountContactRelation; Case; Account; Contact; OperatingHours; Individual"}
+[11:36:22.547] {"Order of objects to delete data":"AccountContactRelation; Contact; Account; Case; Individual; OperatingHours; RecordType"}
+[11:36:22.547] {"Order of objects to update data":"RecordType; OperatingHours; Individual; Case; Account; Contact; AccountContactRelation"}
+[11:36:22.548] Preparing has been finished.
+
+[11:36:22.548] GETTING THE TOTAL AMOUNT OF RECORDS LIMITED BY THE OBJECT'S SOQL QUERY ...
+[11:36:22.882] {RecordType} Total amount of the SOURCE records: 28
+[11:36:23.217] {OperatingHours} Total amount of the SOURCE records: 0
+[11:36:23.632] {Individual} Total amount of the SOURCE records: 0
+[11:36:23.999] {Case} Total amount of the SOURCE records: 41
+[11:36:24.392] {Account} Total amount of the SOURCE records: 34
+[11:36:24.730] {Contact} Total amount of the SOURCE records: 41
+[11:36:25.95] {AccountContactRelation} Total amount of the SOURCE records: 45
+
+[11:36:25.96] PROCESSING ADDON HANDLERS ...
+[11:36:25.97] No handlers to process.
+
+[11:36:25.98] Ready to process the data.
+
+[11:36:25.99] DELETING OLD DATA FROM THE TARGET ...
+[11:36:25.99] {AccountContactRelation} No records to delete.
+[11:36:25.100] {Contact} No records to delete.
+[11:36:25.100] {Account} No records to delete.
+[11:36:25.100] {Case} No records to delete.
+[11:36:25.101] {Individual} No records to delete.
+[11:36:25.101] {OperatingHours} No records to delete.
+[11:36:25.102] {RecordType} No records to delete.
+[11:36:25.102] Deleting data was skipped.
+
+[11:36:25.103] RETRIEVING THE DATA STEP 1 ...
+[11:36:25.104] {RecordType} Retrieving the SOURCE data from Org (STEP 1: all records) ...
+[11:36:25.104] {RecordType} Query string: SELECT Id, $$DeveloperName$NamespacePrefix$SobjectType  FROM  RecordType WHERE IsActive = true.
+[11:36:25.521] {RecordType} Retrieving the SOURCE data has been completed. Fetched 26 new records.
+[11:36:25.522] {AccountContactRelation} Retrieving the SOURCE data from Org (STEP 1: all records) ...
+[11:36:25.522] {AccountContactRelation} Query string: SELECT Id, $$AccountId$ContactId, AccountId, ContactId, Roles, IsDirect, IsActive, StartDate, EndDate, IsDeleted, CreatedDate, LastModifiedDate, SystemModstamp, HealthCloudGA__PrimaryGroup__c, HealthCloudGA__Primary__c, HealthCloudGA__Rollups__c, Acc... FROM  AccountContactRelation.
+[11:36:26.231] {AccountContactRelation} Retrieving the SOURCE data has been completed. Fetched 45 new records.
+[11:36:26.232] {Case} Retrieving the SOURCE data from Org (STEP 1: all records) ...
+[11:36:26.232] {Case} Query string: SELECT Id, RecordTypeId, Subject, ContactId, AccountId, ParentId, SuppliedName, SuppliedEmail, SuppliedPhone, SuppliedCompany, Type, Status, Reason, Origin, Priority, Description, IsEscalated, Comments, HealthCloudGA__DueDate__c, HealthCloudGA__Finan... FROM  Case.
+[11:36:26.937] {Case} Retrieving the SOURCE data has been completed. Fetched 41 new records.
+[11:36:26.939] {Account} Retrieving the SOURCE data from Org (STEP 1: all records) ...
+[11:36:26.940] {Account} Query string: SELECT Id, RecordTypeId, Name, IsPersonAccount, LastName, FirstName, Salutation, Type, ParentId, BillingStreet, BillingCity, BillingState, BillingPostalCode, BillingCountry, BillingLatitude, BillingLongitude, BillingGeocodeAccuracy, ShippingStreet, S... FROM  Account.
+[11:36:27.862] {Account} Retrieving the SOURCE data has been completed. Fetched 34 new records.
+[11:36:27.863] {Contact} Retrieving the SOURCE data from Org (STEP 1: all records) ...
+[11:36:27.863] {Contact} Query string: SELECT Id, RecordTypeId, Name, IsPersonAccount, AccountId, LastName, FirstName, Salutation, OtherStreet, OtherCity, OtherState, OtherPostalCode, OtherCountry, OtherLatitude, OtherLongitude, OtherGeocodeAccuracy, MailingStreet, MailingCity, MailingSta... FROM  Contact.
+[11:36:28.677] {Contact} Retrieving the SOURCE data has been completed. Fetched 41 new records.
+[11:36:28.678] Retrieving the data STEP 1 has been completed.
+
+[11:36:28.679] RETRIEVING THE DATA STEP 2 ...
+[11:36:28.679] PASS 1
+[11:36:28.680] =============
+[11:36:28.680] No records
+
+[11:36:28.681] PASS 2
+[11:36:28.681] =============
+[11:36:28.681] No records
+
+[11:36:28.682] PASS 3
+[11:36:28.683] =============
+[11:36:28.683] No records
+
+[11:36:28.684] PASS 4
+[11:36:28.685] =============
+[11:36:28.685] No records
+
+[11:36:28.686] TARGET
+[11:36:28.686] =============
+[11:36:28.687] No records
+[11:36:28.687] Retrieving the data STEP 2 has been completed.
+
+[11:36:28.688] PROCESSING ADDON HANDLERS ...
+[11:36:28.688] No handlers to process.
+
+
+[11:36:28.689] DATA RETRIEVING SUMMARY
+[11:36:28.690] {RecordType} Total retrieved within all steps (source/target): 26/0 records.
+[11:36:28.690] {AccountContactRelation} Total retrieved within all steps (source/target): 45/0 records.
+[11:36:28.690] {Case} Total retrieved within all steps (source/target): 41/0 records.
+[11:36:28.691] {Account} Total retrieved within all steps (source/target): 34/0 records.
+[11:36:28.691] {Contact} Total retrieved within all steps (source/target): 41/0 records.
+[11:36:28.691] {OperatingHours} Total retrieved within all steps (source/target): 0/0 records.
+[11:36:28.692] {Individual} Total retrieved within all steps (source/target): 0/0 records.
+
+[11:36:28.693] UPDATING THE TARGET STEP 1 ...
+[11:36:28.694] {RecordType} Writing to the file /Users/aaron/Development/Projects/Salesforce/Templates/Health-Cloud-Sfdx-Template/data-new/sfdmu/RecordType.csv.
+[11:36:28.700] {RecordType} Updating the Target has been completed. Processed 26 records.
+[11:36:28.701] {OperatingHours} Writing to the file /Users/aaron/Development/Projects/Salesforce/Templates/Health-Cloud-Sfdx-Template/data-new/sfdmu/OperatingHours.csv.
+[11:36:28.701] {Individual} Writing to the file /Users/aaron/Development/Projects/Salesforce/Templates/Health-Cloud-Sfdx-Template/data-new/sfdmu/Individual.csv.
+[11:36:28.702] {Case} Writing to the file /Users/aaron/Development/Projects/Salesforce/Templates/Health-Cloud-Sfdx-Template/data-new/sfdmu/Case.csv.
+[11:36:28.705] {Case} Updating the Target has been completed. Processed 41 records.
+[11:36:28.705] {Account} Writing to the file /Users/aaron/Development/Projects/Salesforce/Templates/Health-Cloud-Sfdx-Template/data-new/sfdmu/Account.csv.
+[11:36:28.709] {Account} Updating the Target has been completed. Processed 34 records.
+[11:36:28.710] {Contact} Writing to the file /Users/aaron/Development/Projects/Salesforce/Templates/Health-Cloud-Sfdx-Template/data-new/sfdmu/Contact.csv.
+[11:36:28.712] {Contact} Updating the Target has been completed. Processed 41 records.
+[11:36:28.712] {AccountContactRelation} Writing to the file /Users/aaron/Development/Projects/Salesforce/Templates/Health-Cloud-Sfdx-Template/data-new/sfdmu/AccountContactRelation.csv.
+[11:36:28.714] {AccountContactRelation} Updating the Target has been completed. Processed 45 records.
+[11:36:28.715] Updating the Target (STEP 1) has been completed. Total processed 187 records.
+
+[11:36:28.716] UPDATING THE TARGET STEP 2 ...
+[11:36:28.716] Nothing was updated
+
+[11:36:28.717] PROCESSING ADDON HANDLERS ...
+[11:36:28.717] No handlers to process.
+
+
+[11:36:28.718] DATA PROCESSING SUMMARY
+[11:36:28.718] {RecordType} Total processed within all steps (Insert + Update): 26 records.
+[11:36:28.719] {AccountContactRelation} Total processed within all steps (Insert + Update): 45 records.
+[11:36:28.719] {Case} Total processed within all steps (Insert + Update): 41 records.
+[11:36:28.719] {Account} Total processed within all steps (Insert + Update): 34 records.
+[11:36:28.720] {Contact} Total processed within all steps (Insert + Update): 41 records.
+[11:36:28.720] {OperatingHours} Total processed within all steps (Insert + Update): 0 records.
+[11:36:28.720] {Individual} Total processed within all steps (Insert + Update): 0 records.
+
+[11:36:28.721] Writing to /Users/aaron/Development/Projects/Salesforce/Templates/Health-Cloud-Sfdx-Template/data-new/sfdmu/MissingParentRecordsReport.csv ...
+
+
+[11:36:28.722] PROCESSING ADDON HANDLERS ...
+[11:36:28.723] No handlers to process.
+
+[11:36:28.725] Command succeeded.
+[11:36:28.726] Execution of the command sfdmu:run has been finished. Exit code 0 (SUCCESS).
+[11:36:28.726] Total time elapsed: 00h 00m 20s 613ms .

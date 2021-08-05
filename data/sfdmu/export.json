@@ -1,0 +1,36 @@
+{
+    "objects": [
+        {
+            "query": "SELECT Id,RecordTypeId,Name,readonly_false FROM Contact",
+            "operation": "Upsert",
+            "externalId": "Name",
+            "excludedFields": ["CleanStatus","HasOptedOutOfEmail","HasOptedOutOfFax","DoNotCall","CanAllowPortalSelfReg","HealthCloudGA__ConditionStatus__c","HealthCloudGA__CreatedFromLead__c","HealthCloudGA__Monitored_at_Home__c","HealthCloudGA__StatusGroup__c","HealthCloudGA__Testing_Status__c","Level__c","Languages__c","emptracing__PrimaryLocation__c"]
+        },
+        {
+            "query": "SELECT Id,RecordTypeId,Name,readonly_false FROM Account",
+            "operation": "Upsert",
+            "externalId": "Name",
+            "excludedFields": ["CleanStatus","DunsNumber","Tradestyle","NaicsCode","NaicsDesc","YearStarted","PersonHasOptedOutOfEmail","PersonHasOptedOutOfFax","PersonDoNotCall","HealthCloudGA__ConditionStatus__pc","HealthCloudGA__CreatedFromLead__pc","HealthCloudGA__Monitored_at_Home__pc","HealthCloudGA__StatusGroup__pc","HealthCloudGA__Testing_Status__pc","AccountNumber","Sic","Ownership","TickerSymbol","Rating","Site","CustomerPriority__c","SLA__c","Active__c","NumberofLocations__c","UpsellOpportunity__c","SLASerialNumber__c","SLAExpirationDate__c","Level__pc","Languages__pc","emptracing__PrimaryLocation__pc"]
+        },
+        {
+            "query": "SELECT all FROM AccountContactRelation",
+            "operation": "Upsert",
+            "externalId": "AccountId;ContactId"
+        },
+        {
+            "query": "SELECT Id,RecordTypeId,Subject,readonly_false FROM  Case",
+            "operation": "Upsert",
+            "externalId": "Subject",
+            "excludedFields": ["AssetId","ProductId","EntitlementId","SourceId","BusinessHoursId","IsVisibleInSelfService","IsSelfServiceClosed","SlaStartDate","IsStopped","OwnerName__c","EngineeringReqNumber__c","SLAViolation__c","Product__c","PotentialLiability__c"]
+        },
+        {
+            "query": "SELECT all FROM AccountContactRelation",
+            "operation": "Upsert",
+            "externalId": "AccountId;ContactId"
+        },
+        {         
+            "query": "SELECT Id FROM RecordType WHERE IsActive = true",
+            "externalId" : "DeveloperName;NamespacePrefix;SobjectType"
+        }
+    ]
+}

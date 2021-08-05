@@ -1,0 +1,5 @@
+AccountId,ContactId,Roles,IsActive,StartDate,EndDate,HealthCloudGA__PrimaryGroup__c,HealthCloudGA__Primary__c,HealthCloudGA__Rollups__c,Errors,Id
+0015e00000Gc3NJAAZ,0035e00000CpqScAAJ,Son,true,2020-07-25,,false,false,,,07k5e000001MVM1AAO
+0015e00000Gc3NJAAZ,0035e00000CpqSwAAJ,Patient,true,2020-07-25,,false,true,,,07k5e000001MVM2AAO
+0015e00000Gc3NJAAZ,0035e00000CpqSsAAJ,Spouse,true,2020-07-25,,false,false,,,07k5e000001MVM3AAO
+0015e00000Gc3NIAAZ,0035e00000CpqSwAAJ,Transportation,true,2020-07-25,,false,false,,,07k5e000001MVM4AAO

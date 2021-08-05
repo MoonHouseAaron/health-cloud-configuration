@@ -1,0 +1,201 @@
+
+[18:13:00.773] {"Running version":"4.4.3"}
+
+[18:13:00.774] [[Core Manifest]] Loading addon manifest ...
+[18:13:00.776] [[User Manifest]] Loading addon manifest ...
+[18:13:01.73] Connecting to rts-dosespot2 using SFDX CLI ...
+[18:13:05.600] Successfully connected to rts-dosespot2.
+[18:13:07.101] {"SOURCE":"csvfile.","TARGET":"rts-dosespot2.","Package script":"/Users/aaron/Development/Projects/Salesforce/Templates/Health-Cloud-Sfdx-Template/data-new/sfdmu/export.json."}
+
+[18:13:07.103] GETTING AND ANALYSING OBJECTS METADATA ...
+[18:13:07.104] Processing the sObject Contact ...
+[18:13:07.104] Getting metadata for Contact (TARGET)
+[18:13:08.386] Processing the sObject Account ...
+[18:13:08.386] Getting metadata for Account (TARGET)
+[18:13:10.76] Processing the sObject AccountContactRelation ...
+[18:13:10.77] Getting metadata for AccountContactRelation (TARGET)
+[18:13:10.635] Processing the sObject Case ...
+[18:13:10.636] Getting metadata for Case (TARGET)
+[18:13:11.332] Processing the sObject RecordType ...
+[18:13:11.333] Getting metadata for RecordType (TARGET)
+[18:13:12.69] Processing the sObject RecordType ...
+[18:13:12.70] Processing the sObject Case ...
+[18:13:12.71] Processing the sObject AccountContactRelation ...
+[18:13:12.72] Processing the sObject Account ...
+[18:13:12.76] Getting metadata for Individual (TARGET)
+[18:13:12.727] The parent sobject Individual for the lookup field Account.PersonIndividualId has been included into the process. The externalId is set to 'Name'.
+[18:13:12.729] Getting metadata for OperatingHours (TARGET)
+[18:13:13.385] The parent sobject OperatingHours for the lookup field Account.OperatingHoursId has been included into the process. The externalId is set to 'Name'.
+[18:13:13.388] Processing the sObject Contact ...
+
+[18:13:13.392] PREPARING DATA MIGRATION JOB ...
+[18:13:13.392] Building migration strategy ...
+[18:13:13.397] {"Order of objects to retrieve data":"RecordType; AccountContactRelation; Case; Account; Contact; OperatingHours; Individual"}
+[18:13:13.397] {"Order of objects to delete data":"AccountContactRelation; Contact; Account; Case; Individual; OperatingHours; RecordType"}
+[18:13:13.398] {"Order of objects to update data":"RecordType; OperatingHours; Individual; Case; Account; Contact; AccountContactRelation"}
+[18:13:13.405] Validating and repairing of the source CSV files ...
+[18:13:13.484] Amount of updated source CSV files: 0
+[18:13:13.484] There are no issues found during the last validation of the source CSV files.
+[18:13:13.484] Validating and repairing of the source CSV files have finished.
+[18:13:13.485] Preparing has been finished.
+
+[18:13:13.485] GETTING THE TOTAL AMOUNT OF RECORDS LIMITED BY THE OBJECT'S SOQL QUERY ...
+[18:13:13.951] {RecordType} Total amount of the TARGET records: 28
+[18:13:14.325] {OperatingHours} Total amount of the TARGET records: 0
+[18:13:14.699] {Individual} Total amount of the TARGET records: 0
+[18:13:15.89] {Case} Total amount of the TARGET records: 26
+[18:13:15.461] {Account} Total amount of the TARGET records: 13
+[18:13:15.873] {Contact} Total amount of the TARGET records: 20
+[18:13:16.244] {AccountContactRelation} Total amount of the TARGET records: 20
+
+[18:13:16.246] PROCESSING ADDON HANDLERS ...
+[18:13:16.246] No handlers to process.
+
+[18:13:16.247] Ready to process the data.
+
+[18:13:16.248] DELETING OLD DATA FROM THE TARGET ...
+[18:13:16.249] {AccountContactRelation} No records to delete.
+[18:13:16.249] {Contact} No records to delete.
+[18:13:16.250] {Account} No records to delete.
+[18:13:16.250] {Case} No records to delete.
+[18:13:16.250] {Individual} No records to delete.
+[18:13:16.251] {OperatingHours} No records to delete.
+[18:13:16.251] {RecordType} No records to delete.
+[18:13:16.251] Deleting data was skipped.
+
+[18:13:16.252] RETRIEVING THE DATA STEP 1 ...
+[18:13:16.253] {RecordType} Retrieving the SOURCE data from CSV file (STEP 1: all records) ...
+[18:13:16.260] {RecordType} Retrieving the SOURCE data has been completed. Fetched 26 new records.
+[18:13:16.261] {AccountContactRelation} Retrieving the SOURCE data from CSV file (STEP 1: all records) ...
+[18:13:16.287] {AccountContactRelation} Retrieving the SOURCE data has been completed. Fetched 45 new records.
+[18:13:16.287] {Case} Retrieving the SOURCE data from CSV file (STEP 1: all records) ...
+[18:13:16.305] {Case} Retrieving the SOURCE data has been completed. Fetched 41 new records.
+[18:13:16.306] {Account} Retrieving the SOURCE data from CSV file (STEP 1: all records) ...
+[18:13:16.326] {Account} Retrieving the SOURCE data has been completed. Fetched 34 new records.
+[18:13:16.327] {Contact} Retrieving the SOURCE data from CSV file (STEP 1: all records) ...
+[18:13:16.337] {Contact} Retrieving the SOURCE data has been completed. Fetched 41 new records.
+[18:13:16.338] {OperatingHours} Retrieving the SOURCE data from CSV file (STEP 1: all records) ...
+[18:13:16.339] {OperatingHours} Retrieving the SOURCE data has been completed. Fetched 0 new records.
+[18:13:16.339] {Individual} Retrieving the SOURCE data from CSV file (STEP 1: all records) ...
+[18:13:16.340] {Individual} Retrieving the SOURCE data has been completed. Fetched 0 new records.
+[18:13:16.340] Retrieving the data STEP 1 has been completed.
+
+[18:13:16.340] RETRIEVING THE DATA STEP 2 ...
+[18:13:16.341] PASS 1
+[18:13:16.341] =============
+[18:13:16.341] No records
+
+[18:13:16.342] PASS 2
+[18:13:16.342] =============
+[18:13:16.342] No records
+
+[18:13:16.343] PASS 3
+[18:13:16.343] =============
+[18:13:16.343] No records
+
+[18:13:16.344] PASS 4
+[18:13:16.344] =============
+[18:13:16.344] No records
+
+[18:13:16.345] TARGET
+[18:13:16.345] =============
+[18:13:16.345] {RecordType} Retrieving the TARGET data from Org (STEP 2: all records) ...
+[18:13:16.346] {RecordType} Query string: SELECT Id, $$DeveloperName$NamespacePrefix$SobjectType  FROM  RecordType WHERE IsActive = true.
+[18:13:16.723] {RecordType} Retrieving the TARGET data has been completed. Fetched 26 new records.
+[18:13:16.724] {AccountContactRelation} Retrieving the TARGET data from Org (STEP 2: all records) ...
+[18:13:16.724] {AccountContactRelation} Query string: SELECT Id, $$AccountId$ContactId, AccountId, ContactId, Roles, IsDirect, IsActive, StartDate, EndDate, IsDeleted, CreatedDate, LastModifiedDate, SystemModstamp, HealthCloudGA__PrimaryGroup__c, HealthCloudGA__Primary__c, HealthCloudGA__Rollups__c, Acc... FROM  AccountContactRelation.
+[18:13:17.242] {AccountContactRelation} Retrieving the TARGET data has been completed. Fetched 20 new records.
+[18:13:17.242] {Case} Retrieving the TARGET data from Org (STEP 2: all records) ...
+[18:13:17.243] {Case} Query string: SELECT Id, RecordTypeId, Subject, ContactId, AccountId, ParentId, SuppliedName, SuppliedEmail, SuppliedPhone, SuppliedCompany, Type, Status, Reason, Origin, Priority, Description, IsEscalated, Comments, HealthCloudGA__DueDate__c, HealthCloudGA__Finan... FROM  Case.
+[18:13:17.732] {Case} Retrieving the TARGET data has been completed. Fetched 26 new records.
+[18:13:17.733] {Account} Retrieving the TARGET data from Org (STEP 2: all records) ...
+[18:13:17.734] {Account} Query string: SELECT Id, RecordTypeId, Name, IsPersonAccount, LastName, FirstName, Salutation, Type, ParentId, BillingStreet, BillingCity, BillingState, BillingPostalCode, BillingCountry, BillingLatitude, BillingLongitude, BillingGeocodeAccuracy, ShippingStreet, S... FROM  Account.
+[18:13:18.370] {Account} Retrieving the TARGET data has been completed. Fetched 13 new records.
+[18:13:18.370] {Contact} Retrieving the TARGET data from Org (STEP 2: all records) ...
+[18:13:18.371] {Contact} Query string: SELECT Id, RecordTypeId, Name, IsPersonAccount, AccountId, LastName, FirstName, Salutation, OtherStreet, OtherCity, OtherState, OtherPostalCode, OtherCountry, OtherLatitude, OtherLongitude, OtherGeocodeAccuracy, MailingStreet, MailingCity, MailingSta... FROM  Contact.
+[18:13:18.996] {Contact} Retrieving the TARGET data has been completed. Fetched 20 new records.
+[18:13:18.997] Retrieving the data STEP 2 has been completed.
+
+[18:13:18.998] PROCESSING ADDON HANDLERS ...
+[18:13:18.998] No handlers to process.
+
+
+[18:13:18.999] DATA RETRIEVING SUMMARY
+[18:13:19.0] {RecordType} Total retrieved within all steps (source/target): 26/26 records.
+[18:13:19.0] {AccountContactRelation} Total retrieved within all steps (source/target): 45/20 records.
+[18:13:19.0] {Case} Total retrieved within all steps (source/target): 41/26 records.
+[18:13:19.1] {Account} Total retrieved within all steps (source/target): 34/13 records.
+[18:13:19.1] {Contact} Total retrieved within all steps (source/target): 41/20 records.
+[18:13:19.2] {OperatingHours} Total retrieved within all steps (source/target): 0/0 records.
+[18:13:19.2] {Individual} Total retrieved within all steps (source/target): 0/0 records.
+
+[18:13:19.3] UPDATING THE TARGET STEP 1 ...
+[18:13:19.7] {Case} Number of records to Insert: 17.
+[18:13:19.9] {Case} The Insert API operation has been started using REST API.
+[18:13:19.9] [Job# REST:Insert] {Case} The job has been created. Uploading data ...
+[18:13:22.407][WARN] [Batch# REST:Insert] {Case} Incompleted. 15 records succeeded, 2 records failed.
+[18:13:22.408] {Case} The Insert API operation has been finished.
+[18:13:22.413] {Case} [INFO] There are 24 skipped target updates, since no matching was found between the source and the target records by the given ExternalId key, or the data is the same.
+[18:13:22.413] {Case} Updating the Target has been completed. Processed 17 records.
+[18:13:22.418] {Account} Number of records to Insert: 21.
+[18:13:22.419] {Account} The Insert API operation has been started using REST API.
+[18:13:22.419] [Job# REST:Insert] {Account} The job has been created. Uploading data ...
+[18:13:23.682] {Account} The Insert API operation has been finished.
+[18:13:23.687] {Account} [INFO] There are 13 skipped target updates, since no matching was found between the source and the target records by the given ExternalId key, or the data is the same.
+[18:13:23.688] {Account} Updating the Target has been completed. Processed 21 records.
+[18:13:23.691] {Contact} Number of records to Insert: 21.
+[18:13:23.691] {Contact} The Insert API operation has been started using REST API.
+[18:13:23.692] [Job# REST:Insert] {Contact} The job has been created. Uploading data ...
+[18:13:27.336] {Contact} The Insert API operation has been finished.
+[18:13:27.338] {Contact} Number of records to Update: 15.
+[18:13:27.339] {Contact} The Update API operation has been started using REST API.
+[18:13:27.339] [Job# REST:Update] {Contact} The job has been created. Uploading data ...
+[18:13:28.650][WARN] [Batch# REST:Update] {Contact} Incompleted. 13 records succeeded, 2 records failed.
+[18:13:28.651] {Contact} The Update API operation has been finished.
+[18:13:28.653] {Contact} [INFO] There are 5 skipped target updates, since no matching was found between the source and the target records by the given ExternalId key, or the data is the same.
+[18:13:28.653] {Contact} Updating the Target has been completed. Processed 36 records.
+[18:13:28.655] {AccountContactRelation} Number of records to Insert: 4.
+[18:13:28.656] {AccountContactRelation} The Insert API operation has been started using REST API.
+[18:13:28.656] [Job# REST:Insert] {AccountContactRelation} The job has been created. Uploading data ...
+[18:13:29.582] {AccountContactRelation} The Insert API operation has been finished.
+[18:13:29.585] {AccountContactRelation} Updating the Target has been completed. Processed 4 records.
+[18:13:29.586] Updating the Target (STEP 1) has been completed. Total processed 78 records.
+
+[18:13:29.587] UPDATING THE TARGET STEP 2 ...
+[18:13:29.589] {Case} Number of records to Update: 15.
+[18:13:29.589] {Case} The Update API operation has been started using REST API.
+[18:13:29.590] [Job# REST:Update] {Case} The job has been created. Uploading data ...
+[18:13:30.290] {Case} The Update API operation has been finished.
+[18:13:30.291] {Case} [INFO] There are 24 skipped target updates, since no matching was found between the source and the target records by the given ExternalId key, or the data is the same.
+[18:13:30.291] {Case} Updating the Target has been completed. Processed 15 records.
+[18:13:30.294] {Account} Number of records to Update: 15.
+[18:13:30.295] {Account} The Update API operation has been started using REST API.
+[18:13:30.295] [Job# REST:Update] {Account} The job has been created. Uploading data ...
+[18:13:31.124] {Account} The Update API operation has been finished.
+[18:13:31.130] {Account} [INFO] There are 13 skipped target updates, since no matching was found between the source and the target records by the given ExternalId key, or the data is the same.
+[18:13:31.130] {Account} Updating the Target has been completed. Processed 15 records.
+[18:13:31.134] {Contact} [INFO] There are 5 skipped target updates, since no matching was found between the source and the target records by the given ExternalId key, or the data is the same.
+[18:13:31.135] Updating the Target (STEP 2) has been completed. Total processed 30 records.
+
+[18:13:31.136] PROCESSING ADDON HANDLERS ...
+[18:13:31.136] No handlers to process.
+
+
+[18:13:31.137] DATA PROCESSING SUMMARY
+[18:13:31.138] {RecordType} Total processed within all steps (Insert + Update): 0 records.
+[18:13:31.138] {AccountContactRelation} Total processed within all steps (Insert + Update): 4 records.
+[18:13:31.138] {Case} Total processed within all steps (Insert + Update): 32 records.
+[18:13:31.139] {Account} Total processed within all steps (Insert + Update): 36 records.
+[18:13:31.139] {Contact} Total processed within all steps (Insert + Update): 36 records.
+[18:13:31.139] {OperatingHours} Total processed within all steps (Insert + Update): 0 records.
+[18:13:31.140] {Individual} Total processed within all steps (Insert + Update): 0 records.
+
+[18:13:31.141] Writing to /Users/aaron/Development/Projects/Salesforce/Templates/Health-Cloud-Sfdx-Template/data-new/sfdmu/MissingParentRecordsReport.csv ...
+
+
+[18:13:31.142] PROCESSING ADDON HANDLERS ...
+[18:13:31.142] No handlers to process.
+
+[18:13:31.144] Command succeeded.
+[18:13:31.144] Execution of the command sfdmu:run has been finished. Exit code 0 (SUCCESS).
+[18:13:31.145] Total time elapsed: 00h 00m 30s 380ms .
