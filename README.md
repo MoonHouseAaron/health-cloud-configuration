@@ -80,5 +80,3 @@ Run the following command, replacing [ORG_NAME] with your orgs name.
 ~~~~
 sfdx sfdmu:run --sourceusername csvfile -p data/sfdmu/ --noprompt --targetusername  [ORG_NAME]
 ~~~~
-
-## 9. Access the Org
